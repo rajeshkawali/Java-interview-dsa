@@ -1,4 +1,4 @@
-package com.rajeshkawali.dsa.snippet;
+package com.rajeshkawali.dsa.generic;
 
 public class Test {
 
@@ -7,16 +7,12 @@ public class Test {
 				{ 1, 2, 3 }, 
 				{ 4, 5, 6 }, 
 				{ 7, 8, 9 } };
-
 		System.out.println("================================");
 		rotateMatrix(matrix);
-
 	}
 
 	private static void rotateMatrix(int[][] matrix) {
-
 		int n = matrix.length;
-
 		for (int i = 0; i < n; i++) {
 			for (int j = i + 1; j < n; j++) {
 				int temp = matrix[i][j];
@@ -26,7 +22,6 @@ public class Test {
 		}
 		
 		for (int i = 0; i < n; i++) {
-			
 			int left = 0;
 			int right = n-1;
 			while(left<right) {
@@ -36,7 +31,6 @@ public class Test {
 				left++;
 				right--;
 			}
-			
 		}
 		
 		for (int[] row : matrix) {
@@ -45,7 +39,5 @@ public class Test {
             }
             System.out.println();
         }
-		
 	}
-
 }

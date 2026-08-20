@@ -1,4 +1,4 @@
-package com.rajeshkawali.dsa.snippet;
+package com.rajeshkawali.dsa.generic;
 
 public class DSAProgramsOne {
 

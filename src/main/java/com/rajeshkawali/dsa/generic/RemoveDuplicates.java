@@ -1,4 +1,4 @@
-package com.rajeshkawali.dsa.snippet;
+package com.rajeshkawali.dsa.generic;
 
 import java.util.*;
 
@@ -16,7 +16,7 @@ import java.util.*;
  * - For interviews: Two Pointer is the expected optimal solution.
  * - For practice: Set or Stream-based approaches are handy.
  */
-public class RemoveDuplicatesAllWays {
+public class RemoveDuplicates {
 
     // 1. Two Pointer (Optimal, in-place)
     public static int removeDuplicatesTwoPointer(int[] arr) {
